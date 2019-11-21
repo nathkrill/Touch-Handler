@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <title>Touch Handler Demo</title>
+
+    </head>
+
+    <body>
+
+        <div>
+
+            <h2>Swipe Me!</h2>
+
+        </div>
+
+        <style>
+            body {
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: center;
+                align-items: center;
+                height:100vh;
+            }
+
+            div {
+                max-width: 425px;
+                max-height: 900px;
+                width:100%;
+                height: 100%;
+                margin: 0 auto;
+
+                box-shadow: 0px 0px -2em 4em rgba(0,0,0,0.25);
+            }
+        </style>
+
+        <script src='./touch-handler.min.js'></script>
+        <script type='module' src='./demo.js'></script>
+
+    </body>
+
+</html>
