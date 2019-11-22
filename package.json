@@ -1,15 +1,30 @@
 {
-  "name": "touch-hander",
+  "name": "touch-handler",
   "version": "1.0.0",
   "description": "Allow for easier touch interaction handling",
-  "main": "index.js",
+  "main": "/dist/touch-handler.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "nathan.akrill@gmail.com",
   "license": "ISC",
   "devDependencies": {
     "gulp": "^4.0.2",
     "webpack-stream": "^5.2.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathkrill/Touch-Handler.git"
+  },
+  "keywords": [
+    "javascript",
+    "touch",
+    "swipe",
+    "js",
+    "mobile"
+  ],
+  "bugs": {
+    "url": "https://github.com/nathkrill/Touch-Handler/issues"
+  },
+  "homepage": "https://github.com/nathkrill/Touch-Handler#readme"
 }
