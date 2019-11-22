@@ -58,11 +58,11 @@ export default class TouchHandler {
         this.element.removeEventListener('touchcancel', this.bindEndHandle, false);
         this.element.removeEventListener('touchmove', this.bindMoveHandle, false);
 
+        this.touchEndCb();
+
         this.startTouch = {
             x: 0,
             y: 0
         };
-
-        this.touchEndCb();
     }
 }
