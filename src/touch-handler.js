@@ -66,3 +66,5 @@ export default class TouchHandler {
         };
     }
 }
+
+window.TouchHandler = TouchHandler;
