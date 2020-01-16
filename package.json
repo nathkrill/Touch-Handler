@@ -1,6 +1,6 @@
 {
   "name": "touch-handler",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Allow for easier touch interaction handling",
   "main": "/dist/touch-handler.js",
   "scripts": {
