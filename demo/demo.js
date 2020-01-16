@@ -1,5 +1,3 @@
-import TouchHandler from './touch-handler.js';
-
 function touchStart() {
     console.log('A touch has started!', this);
 }

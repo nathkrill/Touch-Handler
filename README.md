@@ -7,7 +7,7 @@ A simple library to handle touches and swipes using Javascript.
 Include `touch-handler.js` in your project.
 
 ```
-    import TouchHandler from '/path/to/touch-handler.js';
+    import TouchHandler from '/path/to/src/touch-handler.js';
 
     const element = document.querySelector('.touch');
 
@@ -17,6 +17,12 @@ Include `touch-handler.js` in your project.
         touchEnd: endFunction // Code that will run when the touch is ended or cancelled.
     });
 
+```
+
+OR, include the built js:
+
+```
+    <script src='/path/to/dist/touch-handler.js'></script>
 ```
 
 Inside each of your functions you can use `this` to access the TouchHandler instance.
